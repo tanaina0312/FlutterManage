@@ -1,0 +1,6 @@
+framework module Pods_FlutterManage_FlutterManageUITests {
+  umbrella header "Pods-FlutterManage-FlutterManageUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
