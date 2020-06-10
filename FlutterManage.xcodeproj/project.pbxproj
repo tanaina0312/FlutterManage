@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		518E7B449C6112DA5F14A100 /* Pods_FlutterManage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC9A8AC4233610E58AA46F8 /* Pods_FlutterManage.framework */; };
 		B9ACBE21248DE5F200EA57A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACBE20248DE5F200EA57A6 /* AppDelegate.m */; };
-		B9ACBE24248DE5F200EA57A6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACBE23248DE5F200EA57A6 /* SceneDelegate.m */; };
 		B9ACBE27248DE5F200EA57A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACBE26248DE5F200EA57A6 /* ViewController.m */; };
 		B9ACBE2A248DE5F200EA57A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9ACBE28248DE5F200EA57A6 /* Main.storyboard */; };
 		B9ACBE2C248DE5F400EA57A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9ACBE2B248DE5F400EA57A6 /* Assets.xcassets */; };
@@ -17,6 +16,9 @@
 		B9ACBE32248DE5F400EA57A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACBE31248DE5F400EA57A6 /* main.m */; };
 		B9ACBE3C248DE5F500EA57A6 /* FlutterManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACBE3B248DE5F500EA57A6 /* FlutterManageTests.m */; };
 		B9ACBE47248DE5F500EA57A6 /* FlutterManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACBE46248DE5F500EA57A6 /* FlutterManageUITests.m */; };
+		B9F9045A248F7E8C004F98A8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F90459248F7E8C004F98A8 /* HomeViewController.m */; };
+		B9F9045E248F800A004F98A8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F9045C248F800A004F98A8 /* SceneDelegate.m */; };
+		B9F9046A248F8AD6004F98A8 /* FlutterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F90469248F8AD6004F98A8 /* FlutterUtils.m */; };
 		CE16B12836B43AE709983E66 /* Pods_FlutterManageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C22DC5AFCC92120817FEC /* Pods_FlutterManageTests.framework */; };
 		F951A459772ACB70CE768FE2 /* Pods_FlutterManage_FlutterManageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E06D7BBAB9DB88583E379BA /* Pods_FlutterManage_FlutterManageUITests.framework */; };
 /* End PBXBuildFile section */
@@ -48,8 +50,6 @@
 		B9ACBE1C248DE5F200EA57A6 /* FlutterManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlutterManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9ACBE1F248DE5F200EA57A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9ACBE20248DE5F200EA57A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B9ACBE22248DE5F200EA57A6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		B9ACBE23248DE5F200EA57A6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		B9ACBE25248DE5F200EA57A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B9ACBE26248DE5F200EA57A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B9ACBE29248DE5F200EA57A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +63,12 @@
 		B9ACBE42248DE5F500EA57A6 /* FlutterManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlutterManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9ACBE46248DE5F500EA57A6 /* FlutterManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlutterManageUITests.m; sourceTree = "<group>"; };
 		B9ACBE48248DE5F500EA57A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F90458248F7E8C004F98A8 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B9F90459248F7E8C004F98A8 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B9F9045C248F800A004F98A8 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B9F9045D248F800A004F98A8 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B9F90468248F8AD5004F98A8 /* FlutterUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlutterUtils.h; sourceTree = "<group>"; };
+		B9F90469248F8AD6004F98A8 /* FlutterUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlutterUtils.m; sourceTree = "<group>"; };
 		DE75BC1FB1F05E259ED4F599 /* Pods-FlutterManageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterManageTests.release.xcconfig"; path = "Target Support Files/Pods-FlutterManageTests/Pods-FlutterManageTests.release.xcconfig"; sourceTree = "<group>"; };
 		E47E01050E9EAA06A9CA1FC6 /* Pods-FlutterManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterManage.release.xcconfig"; path = "Target Support Files/Pods-FlutterManage/Pods-FlutterManage.release.xcconfig"; sourceTree = "<group>"; };
 		ED00FECAF4761FE893B5CD99 /* Pods-FlutterManage-FlutterManageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterManage-FlutterManageUITests.release.xcconfig"; path = "Target Support Files/Pods-FlutterManage-FlutterManageUITests/Pods-FlutterManage-FlutterManageUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,7 +112,6 @@
 				98E26BB235DD2780AEFCD41C /* Pods-FlutterManageTests.debug.xcconfig */,
 				DE75BC1FB1F05E259ED4F599 /* Pods-FlutterManageTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,10 +140,12 @@
 		B9ACBE1E248DE5F200EA57A6 /* FlutterManage */ = {
 			isa = PBXGroup;
 			children = (
+				B9F90467248F8ABF004F98A8 /* utils */,
+				B9F9045D248F800A004F98A8 /* SceneDelegate.h */,
+				B9F9045C248F800A004F98A8 /* SceneDelegate.m */,
+				B9F9045B248F7E91004F98A8 /* vc */,
 				B9ACBE1F248DE5F200EA57A6 /* AppDelegate.h */,
 				B9ACBE20248DE5F200EA57A6 /* AppDelegate.m */,
-				B9ACBE22248DE5F200EA57A6 /* SceneDelegate.h */,
-				B9ACBE23248DE5F200EA57A6 /* SceneDelegate.m */,
 				B9ACBE25248DE5F200EA57A6 /* ViewController.h */,
 				B9ACBE26248DE5F200EA57A6 /* ViewController.m */,
 				B9ACBE28248DE5F200EA57A6 /* Main.storyboard */,
@@ -166,6 +173,24 @@
 				B9ACBE48248DE5F500EA57A6 /* Info.plist */,
 			);
 			path = FlutterManageUITests;
+			sourceTree = "<group>";
+		};
+		B9F9045B248F7E91004F98A8 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				B9F90458248F7E8C004F98A8 /* HomeViewController.h */,
+				B9F90459248F7E8C004F98A8 /* HomeViewController.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		B9F90467248F8ABF004F98A8 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				B9F90468248F8AD5004F98A8 /* FlutterUtils.h */,
+				B9F90469248F8AD6004F98A8 /* FlutterUtils.m */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 		FF5327E4E5D1694CEC5CF2C6 /* Frameworks */ = {
@@ -435,8 +460,10 @@
 			files = (
 				B9ACBE27248DE5F200EA57A6 /* ViewController.m in Sources */,
 				B9ACBE21248DE5F200EA57A6 /* AppDelegate.m in Sources */,
+				B9F9046A248F8AD6004F98A8 /* FlutterUtils.m in Sources */,
+				B9F9045E248F800A004F98A8 /* SceneDelegate.m in Sources */,
 				B9ACBE32248DE5F400EA57A6 /* main.m in Sources */,
-				B9ACBE24248DE5F200EA57A6 /* SceneDelegate.m in Sources */,
+				B9F9045A248F7E8C004F98A8 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -593,7 +620,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -607,6 +634,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JBM8Q77L7;
 				INFOPLIST_FILE = FlutterManage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -624,6 +652,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JBM8Q77L7;
 				INFOPLIST_FILE = FlutterManage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

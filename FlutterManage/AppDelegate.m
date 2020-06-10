@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import <FlutterPluginRegistrant/GeneratedPluginRegistrant.h>
+#import "HomeViewController.h"
+
+static NSString *FLUTTER_ENGINE_NAME = @"FlutterManage";
 
 @interface AppDelegate ()
 
@@ -16,8 +20,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    
+    self.flutterEngine = [[FlutterEngine alloc] initWithName:FLUTTER_ENGINE_NAME];
+    [self.flutterEngine run];
+    [GeneratedPluginRegistrant registerWithRegistry:self.flutterEngine];
+    
+    
+    return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 

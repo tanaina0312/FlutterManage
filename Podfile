@@ -7,6 +7,8 @@ target 'FlutterManage' do
   install_all_flutter_pods(flutter_application_path)
   use_frameworks!
   
+  pod 'Masonry'
+  
 
   # Pods for FlutterManage
 

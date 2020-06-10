@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@import Flutter;
 
+@interface AppDelegate : FlutterAppDelegate
+
+@property (nonatomic, strong) FlutterEngine *flutterEngine;
 
 @end
 
