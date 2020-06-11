@@ -25,6 +25,7 @@ class _HomeContentState extends State<HomeContent> {
 
         final category = snapshot.data;
         return GridView.builder(
+
           scrollDirection: Axis.vertical,
             padding: EdgeInsets.all(20),
             itemCount: category.length,
