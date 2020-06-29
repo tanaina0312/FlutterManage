@@ -12,13 +12,13 @@ class AppTheme {
   static final Color norTextColors = Colors.red;
 
   static final ThemeData norTheme = ThemeData(
-      primarySwatch: Colors.pink,
+      primarySwatch: Colors.pink, //应用的主要颜色
       canvasColor: Color.fromRGBO(255, 254, 222, 1),
       textTheme: TextTheme(
-        body1: TextStyle(fontSize: bodyFontSize),
-        display1: TextStyle(fontSize: smallFontSize, color: Colors.black87),
-        display2: TextStyle(fontSize: normalFontSize, color: Colors.black87),
-        display3: TextStyle(fontSize: largeFontSize, color: Colors.black87),
+        bodyText2: TextStyle(fontSize: bodyFontSize),
+        headline4: TextStyle(fontSize: smallFontSize, color: Colors.black87),
+        headline3: TextStyle(fontSize: normalFontSize, color: Colors.black87),
+        headline2: TextStyle(fontSize: largeFontSize, color: Colors.black87),
       )
   );
 
@@ -29,7 +29,7 @@ class AppTheme {
   static final ThemeData darkTheme = ThemeData(
       primarySwatch: Colors.grey,
       textTheme: TextTheme(
-          body1: TextStyle(fontSize: normalFontSize, color: darkTextColors)
+          bodyText2: TextStyle(fontSize: normalFontSize, color: darkTextColors)
       )
   );
 }
