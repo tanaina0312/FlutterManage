@@ -37,7 +37,6 @@ class _HomeContentState extends State<HomeContent> {
             ),
             itemBuilder: (context, index){
               CategoryModel model = category[index];
-              if(model == null) return null;
               return HomeItem(model);
             }
         );

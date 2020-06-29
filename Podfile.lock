@@ -2,18 +2,37 @@ PODS:
   - Flutter (1.0.0)
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
+    - path_provider
+    - sqflite
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - Masonry (1.1.0)
   - my_flutter (0.0.1):
     - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - path_provider_linux (0.0.1):
+    - Flutter
+  - path_provider_macos (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
 
 DEPENDENCIES:
   - Flutter (from `my_flutter/.ios/Flutter/engine`)
   - FlutterPluginRegistrant (from `my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
   - Masonry
   - my_flutter (from `my_flutter/.ios/Flutter`)
+  - path_provider (from `my_flutter/.ios/Flutter/.symlinks/path_provider/ios`)
+  - path_provider_linux (from `my_flutter/.ios/Flutter/.symlinks/path_provider_linux/ios`)
+  - path_provider_macos (from `my_flutter/.ios/Flutter/.symlinks/path_provider_macos/ios`)
+  - sqflite (from `my_flutter/.ios/Flutter/.symlinks/sqflite/ios`)
 
 SPEC REPOS:
   trunk:
+    - FMDB
     - Masonry
 
 EXTERNAL SOURCES:
@@ -23,12 +42,25 @@ EXTERNAL SOURCES:
     :path: my_flutter/.ios/Flutter/FlutterPluginRegistrant
   my_flutter:
     :path: my_flutter/.ios/Flutter
+  path_provider:
+    :path: my_flutter/.ios/Flutter/.symlinks/path_provider/ios
+  path_provider_linux:
+    :path: my_flutter/.ios/Flutter/.symlinks/path_provider_linux/ios
+  path_provider_macos:
+    :path: my_flutter/.ios/Flutter/.symlinks/path_provider_macos/ios
+  sqflite:
+    :path: my_flutter/.ios/Flutter/.symlinks/sqflite/ios
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+  FlutterPluginRegistrant: 052916439ac930a2ed8e894d9d112c976ab9bfef
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   my_flutter: c0ca42721b3297bc8d54e93782ac00730d3bd1a1
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  path_provider_linux: 4d630dc393e1f20364f3e3b4a2ff41d9674a84e4
+  path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
+  sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
 
 PODFILE CHECKSUM: 5b29df88460f7dba87fad9e1f010dd7c598b71bb
 
